@@ -53,18 +53,19 @@ I am assuming DTPS as a negative metric, therefore I will be inverting the value
 
 Now to the formula:
 
-$$PER = p\cdot( DPS + HPS + \frac{DTPS + TA}{2} ) + i \cdot INT $$
+<img src="https://render.githubusercontent.com/render/math?math=PER = p\cdot( DPS %2B HPS %2B \frac{DTPS %2B TA}{2} ) %2B i \cdot INT">
 
-- $p$ is the percentage of contribution to the final score for the metrics DPS, HPS, and Survivability
-- $DPS$ is the normalized score for the Damage Done Per Second
-- $HPS$ is the normalized score for the Healing Done Per Second
-- $DTPS$ is the normalized score for the inverse Damage Taken Per Second
-- $TA$ is the normalized score for the Time Alive
-- $i$ is the percentage of contribution to the final score for Interaction score.
-- $INT$ is the normalized score for the Interactions in a fight
-- Where $3p+i=1$
 
-For this exercise I used the values of $p=0.3$ and $i=0.1$ , meaning that I gave a 30% importance to DPS, HPS, and DTPS each, while assigning a 10% to Interactions.
+- _**p**_ is the percentage of contribution to the final score for the metrics DPS, HPS, and Survivability
+- _**DPS**_ is the normalized score for the Damage Done Per Second
+- _**HPS**_ is the normalized score for the Healing Done Per Second
+- _**DTPS**_ is the normalized score for the inverse Damage Taken Per Second
+- _**TA**_ is the normalized score for the Time Alive
+- _**i**_  is the percentage of contribution to the final score for Interaction score.
+- _**INT**_ is the normalized score for the Interactions in a fight
+- Where 3 _**p**_ + _**i**_ = 1
+
+For this exercise I used the values of _**p**_ = 0.3 and _**i**_ = 0.1 , meaning that I gave a 30% importance to DPS, HPS, and DTPS each, while assigning a 10% to Interactions.
 
 
 ## Results 
